@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AlertCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -120,7 +121,7 @@ const FAQs = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Contact Support
+            <Link to="/Contact">Contact Support</Link>
           </motion.button>
         </motion.div>
       </motion.div>

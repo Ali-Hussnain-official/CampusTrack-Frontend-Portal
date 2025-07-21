@@ -9,6 +9,7 @@ import LostItemForm from './Pages/LostItemForm'
 import FoundItemForm from './Pages/FoundItemForm'
 import SubmitItemPage from './Pages/SubmitItemPage'
 import FAQs from './Pages/FAQs'
+import Contact from './Pages/Contact'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/submit" element={<SubmitItemPage />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   )

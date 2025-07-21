@@ -5,17 +5,17 @@ const contacts = [
   {
     icon: <Mail className="text-blue-600" size={28} />,
     label: 'Email Support',
-    detail: 'support@campustrack.com',
+    detail: 'ali.hussnain3155@gmail.com',
   },
   {
     icon: <Phone className="text-blue-600" size={28} />,
     label: 'Campus Helpline',
-    detail: '+92 300 1234567',
+    detail: '+92 3419243155',
   },
   {
     icon: <MapPin className="text-blue-600" size={28} />,
     label: 'Office Address',
-    detail: 'Admin Block, University of XYZ',
+    detail: 'Lahore, Punjab, Pakistan',
   },
 ];
 
