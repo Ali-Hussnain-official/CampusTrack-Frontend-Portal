@@ -60,7 +60,7 @@ const SubmitItemPage = () => {
         {/* Footer Note */}
         <div className="bg-gray-50 p-6 text-center border-t border-gray-200">
           <p className="text-gray-500 text-sm">
-            Need help? <span className="text-blue-600 hover:underline cursor-pointer">Contact support</span>
+            Need help? <span className="text-blue-600 hover:underline cursor-pointer"><Link to = '/faqs'>Contact support</Link></span>
           </p>
         </div>
       </div>
